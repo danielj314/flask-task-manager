@@ -11,7 +11,13 @@ document.addEventListener("DOMContentLoaded", function() {
         i18n: {done: "Select"}
     });
 
-    // datepicker initialization
+    // select initialization
     let selects = document.querySelectorAll('select');
     M.FormSelect.init(selects);
+
+    // collapsible initialization
+    let collapsible = document.querySelectorAll('.collapsible');
+    M.Collapsible.init(collapsible);
+
+    
 });
